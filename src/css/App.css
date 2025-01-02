@@ -1,0 +1,22 @@
+.App {
+    /*text-align: center;*/
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.hr-green {
+    border-bottom: 5px solid #D8FF00; /* Grosor de 5px y color verde */
+    padding-bottom: 10px; /* Espacio entre el texto y la línea */
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    flex: 1; /* Empuja el pie de página hacia abajo */
+}

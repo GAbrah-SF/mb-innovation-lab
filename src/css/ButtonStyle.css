@@ -1,0 +1,57 @@
+.btn-green-mb {
+    background-color: #D8FF00 !important; /* Color base */
+    border: 1px solid #D8FF00 !important; /* Borde del mismo color */
+    color: #000 !important; /* Color del texto */
+    font-size: 1.25rem; /* Tamaño de fuente para `btn-lg` */
+    padding: 10px 20px; /* Ajuste de tamaño */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Suavidad */
+    width: 100%;
+    outline: none !important; /* Eliminar el borde predeterminado al hacer clic */
+}
+
+.btn-green-mb:hover {
+    background-color: #c7e600 !important; /* Color al pasar el cursor */
+    border-color: #c7e600 !important; /* Borde al pasar el cursor */
+}
+
+.btn-green-mb:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0.2rem rgba(216, 255, 0, 0.5) !important; /* Efecto de enfoque */
+}
+
+.btn-green-mb:active {
+    background-color: #D8FF00 !important; /* Mantener el color de fondo al hacer clic */
+    border-color: #D8FF00 !important; /* Mantener el color del borde al hacer clic */
+    box-shadow: none !important; /* Eliminar sombra predeterminada de botón activo */
+}
+
+/*.btn-lg {*/
+/*    --bs-btn-padding-y: 0px !important;*/
+/*}*/
+
+.btn-black {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+.img-button {
+    cursor: pointer;
+    width: 100%;
+}
+
+.img-button:hover {
+    width: 96%;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+.img-button-create {
+    cursor: pointer;
+    width: 240px;
+    height: 80px;
+}
+
+.img-button-create:hover {
+    width: 250px;
+    height: 80px;
+}
